@@ -163,7 +163,7 @@ if startTls[0] == 220:
     print 'Email has been successfully started'
 else:
     errorCall(startTls)
-myEmailAddress = 'pinkardmichael@gmail.com'
+myEmailAddress = raw_input('Email Address: ')
 password = raw_input('Gmail PSWD: ')
 success = 0
 while success != 235:
