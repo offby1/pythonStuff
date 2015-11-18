@@ -14,7 +14,11 @@ def start_adress(sysVar,yN):
             address = raw_input('Where do you want to start?: ')
         else:
             address = raw_input('Where do you want to go?: ')
+<<<<<<< HEAD
     return address
+=======
+        return address
+>>>>>>> c2b99642516925bbc11e9accbcbe78c360a0f6d9
 
 directions = raw_input('Do you want directions? (y/n): ')
 address = start_adress(sys.argv,directions)
